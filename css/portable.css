@@ -1,0 +1,530 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF url(../images/img_02.gif) repeat-x left top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+h1, h2, h3 {
+    margin-left: 5px;
+    padding: 0;
+    font-weight: normal;
+    /*
+            color: #a50118;
+    */
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+p, ul, ol {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+    text-decoration: none;
+    color: #a50118;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img.border {
+    border: 6px solid #E1F1F6;
+}
+
+img.alignleft {
+    float: left;
+    margin-right: 25px;
+}
+
+img.alignright {
+    float: right;
+}
+
+img.aligncenter {
+    margin: 0px auto;
+}
+
+#wrapper {
+    width: "100%";
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background: url(../images/img07.gif) no-repeat center top;
+    background-size:400px;
+}
+
+/* Header */
+
+#header {
+    width: "100%";
+    height: 120px;
+    margin: 0 auto;
+
+}
+
+/* Logo */
+
+#logo {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+    margin: 0;
+    padding: 0;
+}
+
+#logo h1 {
+    width: 60%;
+    float: left;
+    padding-left: 15px;
+    letter-spacing: -1px;
+    text-shadow: #000 -1px 1px 2px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.2em;
+}
+
+#logo h2 {
+    width: 30%;
+    float: right;
+    padding-right: 10px;
+    font-size: 1.2em;
+    text-shadow: #000 -1px 1px 2px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: right;
+}
+
+#logo p {
+    margin: 0;
+    padding: 10px 0 0 34px;
+    text-shadow: #000 -1px 1px 2px;
+    font-size: 1.8em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+#logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#creed {
+position:relative;
+top: 30px;
+    float: right;
+    padding: 0;
+
+}
+
+#creed h2 {
+    height: 20px;
+    margin: 0;
+    text-shadow: #000 -1px 1px 2px;
+    font-size: 1.3em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+/* Menu */
+/**
+   Coded by /u/j0be in scss.
+   See scss source here -> https://codepen.io/j0be/pen/MKRVyN
+*/
+
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } } /* needed for checkbox hack */ 
+
+
+#menu input.trigger { position: absolute; top: -9999px; left: -9999px; } 
+#menu input.trigger:checked ~ ul, #nav input.trigger:checked ~ ul li ul { display: block !important; } 
+
+#menu {
+    position: relative;
+    width: 100%;
+    margin: 0 0 auto;
+    padding: 0;
+    float: right;
+}
+
+#menu label { position: relative; display: block; min-height: 1.4em; padding: .45em; font-size: 1.2em; margin: 0; cursor: pointer; background: #a50118; line-height: 1.4em; color: white; } 
+#menu label:after { position: absolute; right: 1em; top: .2em; content: "\2261"; font-size: 1.2em; color: white; } 
+
+#menu ul {
+    display: none;
+    margin: 0;
+    padding: 0px 0px 0px 4px;
+    list-style: none;
+    line-height: normal;
+}
+
+#menu ul li a { display: block; padding: 1em; background: #a50118; color: white; text-decoration: none; border-right: 1px solid #0a6b44; font-size: 1.2em; } 
+
+
+#menu .current_page_item a {
+    text-decoration: underline;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+/*
+    width: 1000px;
+*/
+    margin: 10px auto 0 auto;
+    padding: 0;
+}
+
+#page-bgtop {
+
+    clear: both;
+}
+
+#page-bgbtm {
+    margin: 0px;
+
+}
+
+/* Content */
+
+#content {
+    float: left;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+}
+
+#content h2 {
+
+    margin: 12px 0 0 15px;
+    letter-spacing: -1px;
+    font-size: 1.4em;
+    color: #000;
+}
+
+.post {
+    padding-top: 10px;
+}
+
+.post .title {
+ 
+}
+
+.post .title a {
+    color: #a50118;
+    border: none;
+}
+
+.post .meta {
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 10px 0px 0px 0px;
+}
+
+.links {
+    display: block;
+    width: 96px;
+    padding: 2px 0px 2px 0px;
+    background: #a50118;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #000;
+}
+
+/* Sidebar */
+
+#sidebar {
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li ul {
+    margin: 0px 15px;
+    padding-bottom: 30px;
+}
+
+#sidebar li li {
+    padding-left: 15px;
+    line-height: 35px;
+    background: url(../images/img01.gif) no-repeat left 14px;
+}
+
+#sidebar li li span {
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#sidebar h2 {
+
+    margin: 12px 0 0 15px;
+    letter-spacing: -1px;
+    font-size: 1.4em;
+    color: #000;
+}
+
+#sidebar p {
+    margin: 0 0px;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+#sidebar a {
+    border: none;
+    color: #000;
+    color: #a50118;
+    font-size: 1.1em;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+    color: #a50118;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+    padding: 20px;
+}
+
+#calendar table {
+    width: 100%;
+}
+
+#calendar tbody td {
+    text-align: center;
+}
+
+#calendar #next {
+    text-align: right;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    height: 55px;
+    margin: 0px auto 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 0px;
+    line-height: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+#footer h3 {
+    margin: 0;
+    padding-top: 0px;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer a {
+    color: #000;
+}
+
+#residential {
+
+}
+
+#commercial {
+ 
+}
+
+.services li {
+    list-style: none;
+}
+
+.services li h3 {
+    display: inline-block;
+    margin-left: 0px;
+    background: url(../images/img01.gif) no-repeat left 8px;
+    padding-left: 10px;
+    color: #a50118;
+
+}
+
+.serviceinfo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.serviceinfo li {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+.serviceinfo li ul {
+    margin: 0px 15px;
+}
+
+.serviceinfo ul li {
+    padding-left: 15px;
+    list-style: none;
+}
+
+.serviceinfo li li span {
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.serviceinfo h2 {
+    height: 38px;
+    margin-bottom: 20px;
+    padding: 12px 0 0 15px;
+    letter-spacing: -1px;
+    font-size: 24px;
+    color: #000;
+}
+
+.services p {
+    margin: 0 0px;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+.services a {
+    border: none;
+    color: #000;
+}
+
+.services a:hover {
+    text-decoration: underline;
+    color: #a50118;
+}
+
+#clickit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#clickit h3 {
+    color: #000;
+}
+
+h3[onclick]:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.testimonials {
+    margin: 20px 20px 20px 20px;
+}
+
+dt {
+    margin: 10px 0 20px 0;
+    padding: 0 0 10px 20px;
+    background: url(../images/Q.gif) no-repeat left 0px;
+}
+
+dd {
+    margin: 0 20px 20px 20px;
+    padding: 0 20px 10px 20px;
+    background: url(../images/A.gif) no-repeat left 0px;
+}
+
+dt[onclick]:hover {
+    cursor: pointer;
+}
+
+sup {
+    color: #a50118;
+}
+
+.coupon {
+    margin-top: 20px;
+    width: 480px;
+    border-style: dashed;
+    border-width: thick;
+    border-color: #a50118;
+    border-spacing: 8px;
+}
+
+.couponinfo {
+    margin: 15px;
+}
+.couponvalue {
+    padding: 8px;
+    font-size: 30px;
+    color: #FFF;
+    background-color: #a50118;
+}
+
+.fineprint {
+    font-size: 12px;
+}
+
+.tarea {
+    width: 28em;
+}
+
+div {
+    margin-left: 5px;
+    margin-right: 5px;
+    }
