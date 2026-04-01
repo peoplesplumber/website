@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://peoplesplumber.com/sitemap.xml
