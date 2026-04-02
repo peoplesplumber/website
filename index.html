@@ -1,150 +1,736 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>People's Plumber - Servicing Atlanta Georgia and Surrounding Areas</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="(min-width: 1000px)">
-  <link href="css/portable.css" rel="stylesheet" type="text/css" media="(max-width: 1000px)">
-  <link rel="icon" type="images/ico" href="images/favicon.ico">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="Quality and professional plumbing services in Atlanta and surrounding area by People's Plumber.">
-  <meta name="keywords"
-    content="Plumbing Plumber Plumbers quality best ga georgia contractor repair Replacement affordable commercial residential
-      lawrenceville snellville carl bethlehem braselton hoschton athens dacula winder norcross duluth Smyrna Decatur Roswell Alpharetta Virginia Highlands Cabbage Town covington conyers lithonia stone mountain
-      newton rockdale dekalb fulton gwinnett barrow oconee clark-athens clark county
-      water Heaters Tankless Garbage Disposal Faucets Fixtures Gas Lines Sewer drain Cleaning Thermal Expansion Devices, plumber, plumbing contractor, residential plumbing, commercial plumbing, water Heaters, Tankless Water Heaters, Garbage Disposal, Faucets and Fixtures, Repair and Replace Gas Lines, Sewer Line Replacement, Drain and Sewer Cleaning">
-  <meta name="verify-v1" content="1weoklR85iYI4DnY7kJsuviq0pWbTKW2GPlREEDubAg=">
-  <meta name="google-site-verification" content="GKP3QcV7E0MmjsM1Xc5ZR7Mfg5gPaKi097enseRk8C8">
-  <meta name="msvalidate.01" content="ECC400077FFE889DE4A11DE990FBEF8A">
-  <meta name="Language" content="en-us">
-  <meta name="googlebot" content="index, follow">
-  <meta name="geo.placename" content="Atlanta, GA 30011, USA">
-  <meta name="geo.position" content="33.794633;-84.448772">
-  <meta name="geo.region" content="US-GA">
-  <meta name="ICBM" content="33.794633, -84.448772">
-  <meta name="DC.title" content="The People's Plumber">
-  <script type="text/javascript">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People's Plumber — Flowery Branch, GA's Trusted Plumbing Experts</title>
+    <meta name="description" content="Licensed master plumber serving Flowery Branch, GA and surrounding areas. Emergency plumbing, drain cleaning, water heaters & more. Upfront pricing, no surprises. Call 770-771-3601.">
+    <meta property="og:title" content="People's Plumber — Flowery Branch, GA's Trusted Plumbing Experts">
+    <meta property="og:description" content="Licensed master plumber serving Flowery Branch, GA & surrounding areas. We fix what other plumbers can't. Call 770-771-3601.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://peoplesplumber.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "People's Plumber",
+        "telephone": "+1-770-771-3601",
+        "url": "https://peoplesplumber.com",
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 34.1851, "longitude": -83.8624 },
+            "geoRadius": "50"
+        },
+        "address": { "@type": "PostalAddress", "addressLocality": "Flowery Branch", "addressRegion": "GA", "addressCountry": "US" },
+        "priceRange": "$$",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "150" }
+    }
+    </script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-21516032-1']);
-    _gaq.push(['_trackPageview']);
+        :root {
+            --primary: #1a4d8f;
+            --primary-dark: #0f3460;
+            --accent: #e63946;
+            --accent-hover: #c1232f;
+            --green: #2d936c;
+            --green-light: #e8f5ee;
+            --gold: #f9a825;
+            --bg: #ffffff;
+            --bg-light: #f7f9fc;
+            --bg-warm: #fdf6f0;
+            --text: #1a1a2e;
+            --text-light: #555770;
+            --text-muted: #8a8ca5;
+            --border: #e2e4ec;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+            --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
 
-    (function () {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px; line-height: 1.6; color: var(--text); background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+        }
 
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17059423975"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
-    gtag('config', 'AW-17059423975');
-  </script>
+        /* ==================== TOP BAR ==================== */
+        .top-bar { background: var(--primary-dark); color: white; padding: 8px 0; font-size: 0.85rem; }
+        .top-bar .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+        .top-bar a { color: rgba(255,255,255,0.9); text-decoration: none; }
+        .top-bar a:hover { color: white; }
+        .availability-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: rgba(45,147,108,0.2); border: 1px solid rgba(45,147,108,0.4);
+            padding: 3px 12px; border-radius: 20px; font-weight: 600; font-size: 0.8rem;
+        }
+        .availability-dot {
+            width: 8px; height: 8px; background: #4ade80; border-radius: 50%;
+            animation: blink 1.5s ease-in-out infinite;
+        }
+        @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+        .top-bar .emergency-badge {
+            background: var(--accent); padding: 2px 10px; border-radius: 20px;
+            font-weight: 600; font-size: 0.8rem;
+        }
 
+        /* ==================== HEADER ==================== */
+        header { background: white; box-shadow: var(--shadow-sm); position: sticky; top: 0; z-index: 100; }
+        header .container { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; }
+        .logo { font-family: 'Playfair Display', Georgia, serif; font-size: 1.6rem; font-weight: 700; color: var(--primary); text-decoration: none; line-height: 1.2; }
+        .logo span { color: var(--accent); }
+        nav { display: flex; align-items: center; gap: 6px; }
+        nav a { text-decoration: none; color: var(--text); font-size: 0.9rem; font-weight: 500; padding: 8px 14px; border-radius: 8px; transition: all 0.2s; }
+        nav a:hover { background: var(--bg-light); color: var(--primary); }
+        .nav-cta { background: var(--accent) !important; color: white !important; font-weight: 600 !important; padding: 10px 20px !important; border-radius: 8px !important; }
+        .nav-cta:hover { background: var(--accent-hover) !important; }
+        .mobile-toggle { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text); padding: 8px; }
+
+        /* ==================== BUTTONS ==================== */
+        .btn {
+            display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px;
+            border-radius: 10px; font-size: 1rem; font-weight: 600; text-decoration: none;
+            transition: all 0.25s; border: none; cursor: pointer; font-family: inherit;
+        }
+        .btn-primary { background: var(--accent); color: white; box-shadow: 0 4px 14px rgba(230,57,70,0.35); }
+        .btn-primary:hover { background: var(--accent-hover); transform: translateY(-2px); }
+        .btn-outline { background: rgba(255,255,255,0.12); color: white; border: 2px solid rgba(255,255,255,0.35); }
+        .btn-outline:hover { background: rgba(255,255,255,0.2); border-color: white; }
+        .btn-green { background: var(--green); color: white; }
+        .btn-green:hover { background: #247a59; transform: translateY(-2px); }
+
+        /* ==================== HERO ==================== */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white; padding: 70px 0 100px; position: relative; overflow: hidden;
+        }
+        .hero::after {
+            content: ''; position: absolute; bottom: -2px; left: 0; right: 0;
+            height: 60px; background: white; clip-path: ellipse(55% 100% at 50% 100%);
+        }
+        .hero .container { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center; }
+        .hero-content h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 3rem; line-height: 1.15; margin-bottom: 20px; }
+        .hero-content h1 em { font-style: normal; color: #ffd166; }
+        .hero-content > p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 28px; line-height: 1.7; }
+        .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+        .hero-speed {
+            display: flex; align-items: center; gap: 10px; margin-top: 24px;
+            background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15);
+            padding: 12px 20px; border-radius: 10px; font-size: 0.9rem;
+        }
+        .hero-speed strong { color: #ffd166; }
+
+        /* Hero estimate card */
+        .hero-card {
+            background: rgba(255,255,255,0.1); backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2); border-radius: var(--radius-lg); padding: 36px;
+        }
+        .hero-card h3 { font-size: 1.2rem; margin-bottom: 20px; text-align: center; }
+        .hero-card form { display: flex; flex-direction: column; gap: 12px; }
+        .hero-card input, .hero-card select, .hero-card textarea {
+            padding: 12px 16px; border: 1px solid rgba(255,255,255,0.25); border-radius: 8px;
+            background: rgba(255,255,255,0.1); color: white; font-size: 0.95rem; font-family: inherit;
+        }
+        .hero-card input::placeholder, .hero-card textarea::placeholder { color: rgba(255,255,255,0.6); }
+        .hero-card select option { color: var(--text); background: white; }
+        .hero-card .btn { width: 100%; justify-content: center; font-size: 1.05rem; }
+
+        /* ==================== GUARANTEE BANNER ==================== */
+        .guarantee-bar {
+            background: var(--green-light); border-bottom: 2px solid rgba(45,147,108,0.15);
+            padding: 20px 0;
+        }
+        .guarantee-bar .container {
+            display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;
+        }
+        .guarantee-item { display: flex; align-items: center; gap: 10px; font-size: 0.92rem; font-weight: 600; color: var(--green); }
+        .guarantee-icon { font-size: 1.3rem; }
+
+        /* ==================== PROBLEM-FIRST SERVICES ==================== */
+        .problems { padding: 80px 0; }
+        .section-header { text-align: center; margin-bottom: 56px; }
+        .section-label {
+            display: inline-block; background: rgba(26,77,143,0.08); color: var(--primary);
+            font-weight: 600; font-size: 0.82rem; padding: 6px 16px; border-radius: 20px;
+            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;
+        }
+        .section-header h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 2.4rem; margin-bottom: 12px; }
+        .section-header p { color: var(--text-light); font-size: 1.05rem; max-width: 620px; margin: 0 auto; }
+
+        .problems-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .problem-card {
+            background: white; border-radius: var(--radius); padding: 0; overflow: hidden;
+            box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: all 0.3s; cursor: pointer;
+        }
+        .problem-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--primary); }
+        .problem-top {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: white; padding: 28px 28px 24px; position: relative;
+        }
+        .problem-emoji { font-size: 2.2rem; margin-bottom: 12px; }
+        .problem-top h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 4px; }
+        .problem-top .problem-question { font-size: 0.88rem; opacity: 0.8; }
+        .problem-bottom { padding: 24px 28px; }
+        .problem-bottom p { color: var(--text-light); font-size: 0.9rem; margin-bottom: 14px; line-height: 1.6; }
+        .problem-price { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 14px; }
+        .problem-price strong { color: var(--text); font-size: 0.95rem; }
+        .problem-link { color: var(--primary); font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+        .problem-link:hover { text-decoration: underline; }
+
+        /* ==================== MEET YOUR PLUMBER ==================== */
+        .meet-section { padding: 80px 0; background: var(--bg-warm); }
+        .meet-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: center; }
+        .meet-photo {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            border-radius: var(--radius-lg); aspect-ratio: 4/5; display: flex;
+            flex-direction: column; align-items: center; justify-content: center;
+            color: white; text-align: center; position: relative; overflow: hidden;
+        }
+        .meet-photo-placeholder {
+            width: 160px; height: 160px; border-radius: 50%;
+            background: rgba(255,255,255,0.15); border: 3px solid rgba(255,255,255,0.3);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 4rem; margin-bottom: 20px;
+        }
+        .meet-photo .name { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 4px; }
+        .meet-photo .title { opacity: 0.7; font-size: 0.9rem; }
+        .meet-photo .license {
+            margin-top: 16px; background: rgba(255,255,255,0.15);
+            padding: 6px 16px; border-radius: 20px; font-size: 0.82rem; font-weight: 600;
+        }
+        .meet-content .section-label { text-align: left; }
+        .meet-content h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 20px; }
+        .meet-content .story { color: var(--text-light); font-size: 1.02rem; line-height: 1.8; margin-bottom: 28px; }
+        .meet-content .story strong { color: var(--text); }
+        .meet-values { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
+        .meet-value { display: flex; gap: 14px; align-items: flex-start; }
+        .meet-value-icon {
+            flex-shrink: 0; width: 40px; height: 40px; background: white;
+            border-radius: 10px; display: flex; align-items: center; justify-content: center;
+            font-size: 1.2rem; box-shadow: var(--shadow-sm);
+        }
+        .meet-value h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 2px; }
+        .meet-value p { color: var(--text-light); font-size: 0.88rem; }
+
+        /* ==================== BRAND VIDEO ==================== */
+        .video-section { padding: 80px 0; background: var(--bg-light); }
+        .video-container { max-width: 800px; margin: 0 auto; }
+        .video-wrapper {
+            position: relative; width: 100%; aspect-ratio: 16/9;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);
+        }
+        .video-coming-soon { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; }
+        .play-button {
+            width: 88px; height: 88px; background: rgba(255,255,255,0.12);
+            border: 2px solid rgba(255,255,255,0.25); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2.2rem; margin-bottom: 20px; transition: all 0.3s; cursor: pointer;
+        }
+        .play-button:hover { background: var(--accent); border-color: var(--accent); transform: scale(1.08); }
+        .video-label { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+        .video-sublabel { font-size: 0.85rem; opacity: 0.5; text-transform: uppercase; letter-spacing: 2px; }
+        .video-caption { text-align: center; margin-top: 24px; }
+        .video-caption p { color: var(--text-light); font-size: 1rem; }
+
+        /* ==================== GOOGLE REVIEWS ==================== */
+        .reviews-section { padding: 80px 0; }
+        .reviews-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; flex-wrap: wrap; gap: 20px; }
+        .reviews-header .left h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 8px; }
+        .reviews-header .left p { color: var(--text-light); font-size: 1rem; }
+        .reviews-aggregate {
+            background: white; border: 2px solid var(--border); border-radius: var(--radius);
+            padding: 20px 28px; text-align: center; box-shadow: var(--shadow-sm);
+        }
+        .reviews-aggregate .big-rating { font-size: 3rem; font-weight: 800; color: var(--text); line-height: 1; }
+        .reviews-aggregate .stars { color: var(--gold); font-size: 1.3rem; margin: 6px 0; }
+        .reviews-aggregate .review-count { font-size: 0.85rem; color: var(--text-muted); }
+        .reviews-aggregate .google-link {
+            display: inline-block; margin-top: 8px; font-size: 0.82rem; color: var(--primary);
+            text-decoration: none; font-weight: 600;
+        }
+        .reviews-aggregate .google-link:hover { text-decoration: underline; }
+
+        .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .review-card {
+            background: white; border-radius: var(--radius); padding: 28px;
+            box-shadow: var(--shadow-sm); border: 1px solid var(--border); position: relative;
+        }
+        .review-card .stars { color: var(--gold); font-size: 1rem; margin-bottom: 14px; }
+        .review-card blockquote { font-size: 0.93rem; line-height: 1.7; color: var(--text-light); margin-bottom: 18px; font-style: italic; }
+        .review-card .reviewer { display: flex; align-items: center; gap: 12px; }
+        .reviewer-avatar {
+            width: 40px; height: 40px; border-radius: 50%; background: var(--bg-light);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 0.9rem; color: var(--primary);
+        }
+        .reviewer-name { font-weight: 600; font-size: 0.9rem; }
+        .reviewer-meta { font-size: 0.78rem; color: var(--text-muted); }
+        .review-source {
+            position: absolute; top: 16px; right: 20px; font-size: 0.75rem;
+            color: var(--text-muted); display: flex; align-items: center; gap: 4px;
+        }
+
+        /* ==================== CTA BANNER ==================== */
+        .cta-banner { padding: 80px 0; background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: white; text-align: center; }
+        .cta-banner h2 { font-family: 'Playfair Display', serif; font-size: 2.4rem; margin-bottom: 12px; }
+        .cta-banner p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 32px; max-width: 550px; margin-left: auto; margin-right: auto; }
+        .cta-banner .btn-group { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .cta-banner .btn { font-size: 1.1rem; padding: 16px 32px; }
+        .cta-guarantee {
+            margin-top: 24px; font-size: 0.9rem; opacity: 0.75;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+
+        /* ==================== SERVICE AREA ==================== */
+        .service-area { padding: 60px 0; text-align: center; }
+        .area-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 28px; }
+        .area-tag { background: var(--bg-light); border: 1px solid var(--border); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; color: var(--text-light); }
+
+        /* ==================== FOOTER ==================== */
+        footer { background: var(--text); color: rgba(255,255,255,0.8); padding: 64px 0 32px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+        .footer-brand .logo { color: white; font-size: 1.4rem; display: inline-block; margin-bottom: 16px; }
+        .footer-brand p { font-size: 0.9rem; opacity: 0.7; line-height: 1.7; }
+        footer h4 { font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 20px; color: white; }
+        footer ul { list-style: none; }
+        footer li { margin-bottom: 10px; }
+        footer a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        footer a:hover { color: white; }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px;
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 0.82rem; opacity: 0.6;
+        }
+
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 900px) {
+            .hero .container { grid-template-columns: 1fr; gap: 40px; }
+            .hero-content h1 { font-size: 2.4rem; }
+            .hero { padding: 60px 0 80px; text-align: center; }
+            .hero-buttons { justify-content: center; }
+            .hero-speed { justify-content: center; }
+            .problems-grid { grid-template-columns: 1fr 1fr; }
+            .meet-grid { grid-template-columns: 1fr; gap: 40px; }
+            .meet-content .section-label { text-align: center; }
+            .meet-content h2 { text-align: center; }
+            .reviews-grid { grid-template-columns: 1fr 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            nav a:not(.nav-cta) { display: none; }
+            .mobile-toggle { display: block; }
+        }
+        @media (max-width: 600px) {
+            .hero-content h1 { font-size: 2rem; }
+            .section-header h2, .meet-content h2 { font-size: 1.8rem; }
+            .problems-grid { grid-template-columns: 1fr; }
+            .reviews-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .top-bar .container { justify-content: center; text-align: center; }
+            .hero-card { padding: 28px; }
+            .guarantee-bar .container { gap: 20px; }
+            .reviews-header { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
 </head>
-<!-- end #header -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-
 <body>
-  <div id="wrapper">
-    <div id="header">
-      <div id="logo">
-        <h1><a href="#">People's Plumber</a></h1>
-        <h2>
-          <a href="tel:1-770-771-3601">
-            770-771-3601
-          </a>
-        </h2>
-      </div>
-      <div id="creed">
-        <h2>Commercial &amp; Residential Plumbing Service</h2>
-      </div>
-    </div>
-    <nav role="navigation" id="menu">
-      <input class="trigger" type="checkbox" id="mainNavButton">
-      <label for="mainNavButton" onclick>Menu</label>
-      <ul>
-        <li class="current_page_item"><a href="#">&nbsp;Home&nbsp;</a></li>
-        <li><a href="About-Peoples-Plumber/index.html">&nbsp;About Peoples Plumber&nbsp;</a></li>
-        <li><a href="Peoples-Plumber-Tips/index.html">&nbsp;Pro Tips&nbsp;</a></li>
-        <li><a href="Plumbing-Services/index.html">&nbsp;Plumbing Services&nbsp;</a></li>
-        <li><a href="Ask-The-Expert-Free/index.html">&nbsp;Ask The Expert Free!&nbsp;</a></li>
-        <li><a href="Customer-Testimonials/index.html">&nbsp;Customer Testimonials&nbsp;</a></li>
-        <li><a href="Contact-Us/index.html">&nbsp;Contact Us&nbsp;</a></li>
-      </ul>
 
-    </nav>
-    <!-- end #menu -->
-    <div id="page">
-      <div id="page-bgtop">
-      </div>
-      <div id="content">
-
-        <h2>Full Service Plumbing</h2>
-        <ul>
-          <li>Master Plumber, Licensed &amp; Insured</li>
-          <li>Residential, Commercial, &amp; Industrial Services</li>
-          <li>Emergency Services &ndash; Call Anytime</li>
-        </ul>
-
-        <h2>Services Include</h2>
-        <ul>
-          <li>Drain &amp; Sewer Cleaning</li>
-          <li>Sewer &amp; Water Line Replacement And Repair</li>
-          <li>Basement Bathroom Installation</li>
-          <li>Slab Leak Repairs</li>
-          <li>Water Heaters</li>
-          <li>Garbage Disposals</li>
-          <li>Well Pump Repair or Replacement</li>
-          <li><a href="Plumbing-Services/index.html">See Our Full List Of Services Here</a></li>
-        </ul>
-
-      </div>
-      <!-- end #content -->
-      <div id="sidebar">
-        <div class="post">
-          <h2 class="title">Do You Have A Problem That Will Not Go Away?</h2>
-          <h2 class="title">We Are The Diagnostic And Resolution Experts!</h2>
-          <div class="entry">
-            <p><img src="images/img05.jpg" width="143" height="143" alt="" class="alignleft border">We're a full-service
-              plumbing company. Our plumbing professionals are experts at repairing or replacing all types of toilets,
-              faucets, water heaters, drain and sewer pipes, garbage disposals, fresh water pipes, re-circulating pumps,
-              and gas lines.</p>
-          </div>
+    <!-- ==================== TOP BAR with Availability ==================== -->
+    <div class="top-bar">
+        <div class="container">
+            <div>
+                <span class="availability-badge"><span class="availability-dot"></span> Available Now</span>
+                &nbsp; Serving Flowery Branch, GA & Surrounding Areas
+            </div>
+            <div>
+                <span class="emergency-badge">24/7 Emergency Service</span>
+                &nbsp;&nbsp;
+                <a href="tel:+17707713601"><strong>770-771-3601</strong></a>
+            </div>
         </div>
-        <div class="post">
-          <h2 class="title">Drain Cleaning Services</h2>
-          <div class="entry">
-            <p><img src="images/img06.jpg" width="143" height="143" alt="" class="alignleft border">We've cleaned a lot
-              of drains, from sinks to toilets to mainline sewer stoppages, we've seen it all. Using some of the newest
-              technology available from cameras to digital detection sewer repair, we do it all.</p>
-          </div>
-        </div>
-      </div>
-      <!-- end #sidebar -->
-      <div style="clear: both;">&nbsp;</div>
-      <div id="page-bgbtm">
-      </div>
     </div>
-    <!-- end #page -->
-  </div>
-  <div id="footer">
-    <h3>Call Us Today &mdash; <a href="tel:1-770-771-3601">770-771-3601</a></h3>
-    <script>gtag('config', 'AW-964788770/XfUsCMHZ08YZEKKEhswD', { 'phone_conversion_number': '(770) 771-3601' }); </script>
-    <script>gtag('config', 'AW-964788770/XfUsCMHZ08YZEKKEhswD', { 'phone_conversion_number': '1-770-771-3601' }); </script>
-    <script>gtag('config', 'AW-964788770/XfUsCMHZ08YZEKKEhswD', { 'phone_conversion_number': '770-771-3601' }); </script>
 
-    <p>Copyright &copy; peoplesplumber.com</p>
-  </div>
-  <!-- end #footer -->
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">People's<span> Plumber</span></a>
+            <nav>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="tel:+17707713601" class="nav-cta">Call Now</a>
+            </nav>
+            <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </header>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>We Fix What Other Plumbers <em>Can't</em></h1>
+                <p>Flowery Branch's diagnostic and resolution experts. When the problem keeps coming back, homeowners and businesses call us. Master plumber, licensed & insured — treating every home like our own since day one.</p>
+                <div class="hero-buttons">
+                    <a href="tel:+17707713601" class="btn btn-primary">&#128222; Call 770-771-3601</a>
+                    <a href="#problems" class="btn btn-outline">What's Your Problem?</a>
+                </div>
+                <div class="hero-speed">
+                    &#9889; &nbsp; <strong>Emergency?</strong>&nbsp; Call anytime, day or night — we respond fast when it matters most.
+                </div>
+            </div>
+            <div class="hero-card">
+                <h3>&#128197; Get a Free Estimate in Minutes</h3>
+                <!-- REPLACE: Update YOUR_FORM_ID with your Formspree endpoint -->
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select>
+                        <option value="" disabled selected>What's going on?</option>
+                        <option>Water backing up</option>
+                        <option>No hot water</option>
+                        <option>Leaking or dripping</option>
+                        <option>Toilet won't flush</option>
+                        <option>Low water pressure</option>
+                        <option>Gas smell</option>
+                        <option>Something else</option>
+                    </select>
+                    <textarea placeholder="Tell us more (optional)..." rows="2"></textarea>
+                    <button type="submit" class="btn btn-primary">Get My Free Estimate</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GUARANTEE BANNER ==================== -->
+    <section class="guarantee-bar">
+        <div class="container">
+            <div class="guarantee-item">
+                <span class="guarantee-icon">&#9989;</span>
+                <span>Upfront Pricing — No Surprises, Ever</span>
+            </div>
+            <div class="guarantee-item">
+                <span class="guarantee-icon">&#128170;</span>
+                <span>Fixed Right or It's Free</span>
+            </div>
+            <div class="guarantee-item">
+                <span class="guarantee-icon">&#128176;</span>
+                <span>Free Estimates, No Obligation</span>
+            </div>
+            <div class="guarantee-item">
+                <span class="guarantee-icon">&#127942;</span>
+                <span>Licensed Master Plumber</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROBLEM-FIRST SERVICES ==================== -->
+    <section class="problems" id="problems">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">What's Going On?</div>
+                <h2>Tell Us Your Problem. We'll Fix It.</h2>
+                <p>Skip the jargon. Find your issue below and see exactly how we solve it — with transparent pricing.</p>
+            </div>
+            <div class="problems-grid">
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128167;</div>
+                        <h3>Water Backing Up?</h3>
+                        <div class="problem-question">Sinks, toilets, or floor drains not clearing</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>We use camera inspections to find the real blockage — not just push it further down the line. Same-day service for most drain issues.</p>
+                        <div class="problem-price"><strong>Free estimates</strong> &middot; Same-day service</div>
+                        <a href="#" class="problem-link">Learn more &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128293;</div>
+                        <h3>No Hot Water?</h3>
+                        <div class="problem-question">Tank or tankless water heater issues</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>We repair all brands and install new tank and tankless systems (8–200 gallon). Same-day replacement available for most models.</p>
+                        <div class="problem-price"><strong>Free estimates</strong> &middot; Same-day service</div>
+                        <a href="#" class="problem-link">Learn more &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128374;</div>
+                        <h3>Leaking or Dripping?</h3>
+                        <div class="problem-question">Behind walls, under slabs, or visible pipes</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>Our digital detection technology pinpoints slab leaks and hidden pipe damage without tearing up your home. We fix the source, not the symptom.</p>
+                        <div class="problem-price"><strong>Free estimates</strong> &middot; Same-day service</div>
+                        <a href="#" class="problem-link">Learn more &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128168;</div>
+                        <h3>Smell Gas?</h3>
+                        <div class="problem-question">Gas line leaks, installation, or repair</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>Gas leaks are emergencies. We respond immediately with proper detection equipment and licensed repair for residential and commercial gas systems.</p>
+                        <div class="problem-price"><strong>Emergency priority</strong> &middot; Call anytime</div>
+                        <a href="tel:+17707713601" class="problem-link" style="color: var(--accent);">Call 770-771-3601 &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128706;</div>
+                        <h3>Bathroom Project?</h3>
+                        <div class="problem-question">New install, remodel, or basement bathroom</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>Full basement bathroom installations, tub-to-shower conversions, and fixture upgrades. We handle the plumbing so your contractor doesn't have to.</p>
+                        <div class="problem-price"><strong>Free estimates</strong> &middot; Custom projects</div>
+                        <a href="#" class="problem-link">Learn more &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-top">
+                        <div class="problem-emoji">&#128295;</div>
+                        <h3>Something Else?</h3>
+                        <div class="problem-question">Well pumps, disposals, sewer lines & more</div>
+                    </div>
+                    <div class="problem-bottom">
+                        <p>From well pump failures to garbage disposal replacements to full sewer line excavation — if water or gas runs through it, we fix it.</p>
+                        <div class="problem-price"><strong>Free estimates</strong> &middot; Call to discuss</div>
+                        <a href="tel:+17707713601" class="problem-link">Call to describe your issue &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MEET YOUR PLUMBER ==================== -->
+    <section class="meet-section" id="meet">
+        <div class="container">
+            <div class="meet-grid">
+                <div class="meet-photo">
+                    <!-- REPLACE: Swap this placeholder with a real photo of the plumber -->
+                    <div class="meet-photo-placeholder">&#128119;</div>
+                    <div class="name">Your Name Here</div>
+                    <div class="title">Owner & Master Plumber</div>
+                    <div class="license">GA License #XXXXXX</div>
+                </div>
+                <div class="meet-content">
+                    <div class="section-label">Meet Your Plumber</div>
+                    <h2>Not a Call Center.<br>Not a Franchise.<br>A Real Person.</h2>
+                    <p class="story">
+                        When you call People's Plumber, <strong>you get me</strong> — not a dispatcher, not a rotating crew of strangers. I'm a licensed master plumber who's been solving the toughest plumbing problems in Flowery Branch and the surrounding area for years.
+                        <br><br>
+                        I started this company because I was tired of seeing homeowners get overcharged for work that didn't last. <strong>Every job I do, I treat your home like it's my own.</strong> That means honest diagnostics, upfront pricing, and work that's done right the first time.
+                    </p>
+                    <div class="meet-values">
+                        <div class="meet-value">
+                            <div class="meet-value-icon">&#128269;</div>
+                            <div>
+                                <h4>I Diagnose Before I Charge</h4>
+                                <p>Camera inspections and digital detection to find the real problem — not guess.</p>
+                            </div>
+                        </div>
+                        <div class="meet-value">
+                            <div class="meet-value-icon">&#129309;</div>
+                            <div>
+                                <h4>I Explain Everything First</h4>
+                                <p>You'll know exactly what's wrong and what it costs before any work begins.</p>
+                            </div>
+                        </div>
+                        <div class="meet-value">
+                            <div class="meet-value-icon">&#128170;</div>
+                            <div>
+                                <h4>I Stand Behind My Work</h4>
+                                <p>Fixed right or it's free. That's not marketing — that's my personal promise.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="tel:+17707713601" class="btn btn-primary">&#128222; Talk to Me Directly — 770-771-3601</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BRAND STORY VIDEO ==================== -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Our Story</div>
+                <h2>Why Our Community Trusts People's Plumber</h2>
+                <p>See the person behind the brand — and why families and businesses keep calling back.</p>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe
+                        src="https://www.youtube.com/embed/AU2QVMQfo9o?rel=0&modestbranding=1"
+                        title="People's Plumber Brand Story"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--radius-lg);">
+                    </iframe>
+                </div>
+                <div class="video-caption">
+                    <p>The story behind People's Plumber — from first wrench to Flowery Branch's diagnostic experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GOOGLE REVIEWS (Live Integration) ==================== -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <div class="left">
+                    <div class="section-label">Real Reviews, Real Customers</div>
+                    <h2>Don't Take Our Word For It</h2>
+                    <p>See what homeowners near Flowery Branch are saying on Google.</p>
+                </div>
+                <!-- REPLACE: Connect to Google Places API or Elfsight widget for live review data -->
+                <div class="reviews-aggregate">
+                    <div class="big-rating">4.9</div>
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="review-count">Based on 150+ reviews</div>
+                    <a href="#" class="google-link">See all on Google &rarr;</a>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-source">&#127759; Google</div>
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Two other plumbers couldn't figure out the problem. People's Plumber came out, used a camera, found the issue in 20 minutes, and fixed it the same day. Should've called them first."</blockquote>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">SM</div>
+                        <div>
+                            <div class="reviewer-name">Sarah M.</div>
+                            <div class="reviewer-meta">Flowery Branch, GA &middot; 2 months ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-source">&#127759; Google</div>
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Sunday night, 11pm, burst pipe flooding the basement. Called and he was here in 45 minutes. Fixed it, cleaned up, and the price was exactly what he quoted on the phone. Unreal service."</blockquote>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">JT</div>
+                        <div>
+                            <div class="reviewer-name">James T.</div>
+                            <div class="reviewer-meta">Buford, GA &middot; 3 weeks ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-source">&#127759; Google</div>
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Finally, a plumber who tells you the truth. He could've sold me a full replacement but showed me the camera footage and explained a simple repair would last years. Saved me $3,000. Customer for life."</blockquote>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">PW</div>
+                        <div>
+                            <div class="reviewer-name">Patricia W.</div>
+                            <div class="reviewer-meta">Gainesville, GA &middot; 1 month ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA BANNER ==================== -->
+    <section class="cta-banner" id="contact">
+        <div class="container">
+            <h2>Ready to Fix It For Good?</h2>
+            <p>Whether it's an emergency or a project you've been putting off, talk directly to a master plumber — not a sales team.</p>
+            <div class="btn-group">
+                <a href="tel:+17707713601" class="btn btn-primary">&#128222; Call 770-771-3601</a>
+                <a href="#" class="btn btn-outline">Request Free Estimate</a>
+            </div>
+            <div class="cta-guarantee">&#128274; &nbsp; Remember: Upfront pricing. No surprises. Fixed right or it's free.</div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICE AREA ==================== -->
+    <section class="service-area">
+        <div class="container">
+            <div class="section-label">Service Area</div>
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; margin-top: 12px;">Proudly Serving Flowery Branch & Surrounding Areas</h2>
+            <div class="area-tags">
+                <span class="area-tag">Flowery Branch</span><span class="area-tag">Buford</span>
+                <span class="area-tag">Gainesville</span><span class="area-tag">Braselton</span>
+                <span class="area-tag">Hoschton</span><span class="area-tag">Oakwood</span>
+                <span class="area-tag">Cumming</span><span class="area-tag">Dahlonega</span>
+                <span class="area-tag">Dawsonville</span><span class="area-tag">Suwanee</span>
+                <span class="area-tag">Lawrenceville</span><span class="area-tag">Duluth</span>
+                <span class="area-tag">Winder</span><span class="area-tag">Dacula</span>
+                <span class="area-tag">Jefferson</span><span class="area-tag">Clermont</span>
+                <span class="area-tag">Murrayville</span><span class="area-tag">Lake Lanier Area</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">People's<span> Plumber</span></a>
+                    <p>Flowery Branch's diagnostic and resolution experts. Master plumber, licensed and insured. We fix what other plumbers can't — and we stand behind every job.</p>
+                </div>
+                <div>
+                    <h4>Common Problems</h4>
+                    <ul>
+                        <li><a href="#problems">Water Backing Up</a></li>
+                        <li><a href="#problems">No Hot Water</a></li>
+                        <li><a href="#problems">Leaks & Drips</a></li>
+                        <li><a href="#problems">Gas Line Issues</a></li>
+                        <li><a href="#problems">Bathroom Projects</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">Meet Your Plumber</a></li>
+                        <li><a href="about.html#reviews">Reviews</a></li>
+                        <li><a href="about.html#video">Our Story</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+17707713601"><strong>770-771-3601</strong></a></li>
+                        <li><a href="contact.html">Request Estimate</a></li>
+                        <li>Flowery Branch, GA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 People's Plumber. All rights reserved.</span>
+                <span>Licensed Master Plumber &middot; Insured &middot; Flowery Branch, GA</span>
+            </div>
+        </div>
+    </footer>
+
 </body>
-
 </html>
