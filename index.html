@@ -387,10 +387,12 @@
             </div>
             <div class="hero-card">
                 <h3>&#128197; Get a Free Estimate in Minutes</h3>
-                <form action="https://formspree.io/rotoman_72@msn.com" method="POST">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="tel" placeholder="Phone Number" required>
-                    <select>
+                <form action="https://formsubmit.co/rotoman_72@msn.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Estimate Request - People's Plumber">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <select name="problem">
                         <option value="" disabled selected>What's going on?</option>
                         <option>Water backing up</option>
                         <option>No hot water</option>
@@ -400,7 +402,7 @@
                         <option>Gas smell</option>
                         <option>Something else</option>
                     </select>
-                    <textarea placeholder="Tell us more (optional)..." rows="2"></textarea>
+                    <textarea name="message" placeholder="Tell us more (optional)..." rows="2"></textarea>
                     <button type="submit" class="btn btn-primary">Get My Free Estimate</button>
                 </form>
             </div>
